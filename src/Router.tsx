@@ -5,6 +5,7 @@ import { PuffsContainer } from './components/Background'
 import Typescript from './Typescript'
 import NotFound from './NotFound'
 import Bubbles from './components/Bubbles'
+import TileWave from './components/TileWave'
 
 const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
     {
         path: '/bubbles',
         element: <Bubbles />,
+    },
+    {
+        path: '/tile-wave',
+        element: <TileWave />,
     },
     {
         path: '/*',
