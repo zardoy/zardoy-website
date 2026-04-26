@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import Home from './components/Home'
 import Ow from './components/Ow'
 import { PuffsContainer } from './components/Background'
-import Typescript from './Typescript'
+import TypescriptMinecraft from './TypescriptMinecraft'
 import NotFound from './NotFound'
 import Bubbles from './components/Bubbles'
 
@@ -33,7 +33,7 @@ const router = createBrowserRouter([
     },
     {
         path: '/ts',
-        element: <Typescript />,
+        element: <TypescriptMinecraft />,
     },
     {
         path: '/bubbles',

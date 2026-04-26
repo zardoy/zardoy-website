@@ -6,7 +6,7 @@ interface ComponentProps {}
 
 const Home: React.FC<ComponentProps> = () => {
     return (
-        <div tw="bg-[rgb(2, 17, 20)] text-white">
+        <div>
             <MainBlock />
             <ArwesNote />
             {/* https://webkul.github.io/coolhue/ */}

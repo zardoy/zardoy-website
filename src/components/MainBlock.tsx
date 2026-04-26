@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react'
-import Typescript from '../Typescript'
+import TypescriptMinecraft from '../TypescriptMinecraft'
 import Circles from './Circles'
 import Bubbles from './Bubbles'
 import ScrollDown from './ScrollDown'
@@ -46,7 +46,7 @@ const MainBlock: React.FC = () => {
                 {isVisible && <PuffsContainer />}
             </div>
             <Bubbles />
-            <Typescript />
+            <TypescriptMinecraft />
         </div>
     )
 }
